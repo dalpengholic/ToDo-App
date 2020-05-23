@@ -10,13 +10,14 @@ body{
     display: flex;
     justify-content: space-between;
     margin-top: 10px;
-
+    font-size: 150%;
 }
 
 .status-bar__clock,
-.status-bar__weather {
+.status-bar__temp,
+.status-bar__place
+. {
     color: #FFFAF0;
-    font-size: 150%;
     transition: color .5s ease-in-out;
     text-align: left;
     margin: 0px;
