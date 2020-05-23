@@ -16,7 +16,7 @@ function getWeather(lat, lon){
     ).then(function(response){
         return response.json();
     }).then(function(json){
-        console.log(json);
+        // console.log(json);
         const temp = round(json.main.temp, 1);
         const place = json.name;
         const weatherMain = json.weather[0].main;

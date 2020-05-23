@@ -13,6 +13,30 @@ body{
     font-size: 150%;
 }
 
+
+.bottom-bar{
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    margin: 10px 10px;
+    padding:10px 10px; 
+    font-size: 80%;
+    /* color: white; */
+}
+
+.bottom-bar__text{
+    display: inline-block;
+    width:70%;
+    word-wrap:break-word;
+}
+
+
 .status-bar__clock,
 .status-bar__temp,
 .status-bar__place
