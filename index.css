@@ -6,9 +6,17 @@ body{
     cursor: pointer;
 }
 
-.status-bar__clock {
+.status-bar{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+
+}
+
+.status-bar__clock,
+.status-bar__weather {
     color: #FFFAF0;
-    font-size: 300%;
+    font-size: 150%;
     transition: color .5s ease-in-out;
     text-align: left;
     margin: 0px;

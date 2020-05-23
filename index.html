@@ -2,15 +2,18 @@
 <html>
 <head>
   <title>Momonton || My To-Do List</title>
+  <script src="https://kit.fontawesome.com/abe311f4c2.js" crossorigin="anonymous"></script>
   <meta charset="utf-8" />
   <link rel="stylesheet" href="index.css" />
 </head>
   <body>
     <div class="status-bar">
       <div class="js-clock">
-        <h1>00:00</h1>
+        <span class="status-bar__clock">00:00</span>
       </div>
-      
+      <div class="js-weather">
+        <span class="status-bar__weather">temp@placeS</span>
+      </div>
     </div>
     <form class="js-form form">
       <input type="text" placeholder="What is your name?" />
@@ -21,7 +24,7 @@
     </form>
     <ul class="js-toDoList">
     </ul>
-    <span class="js-weather"></span>
+
     <script src="clock.js"></script>
     <script src="greeting.js"></script>
     <script src="todo.js"></script>
