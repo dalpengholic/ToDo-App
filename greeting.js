@@ -25,7 +25,7 @@ function askForName(){
 function paintGreeting(text){
     form.classList.remove(SHOWING_CN)
     greetings.classList.add(SHOWING_CN)
-    greetings.innerText = `Hello ${text}`;
+    greetings.innerText = `${text}, welcome back`;
 }
 
 function loadName(){
@@ -38,7 +38,6 @@ function loadName(){
     }
 
 }
-
 
 function init(){
     loadName();

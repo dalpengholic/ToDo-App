@@ -9,7 +9,7 @@ body{
 .status-bar{
     display: flex;
     justify-content: space-between;
-    margin-top: 10px;
+    margin-top: 20px;
     font-size: 150%;
 }
 
@@ -27,7 +27,7 @@ body{
     margin: 10px 10px;
     padding:10px 10px; 
     font-size: 80%;
-    /* color: white; */
+    color: white;
 }
 
 .bottom-bar__text{
@@ -36,12 +36,12 @@ body{
     word-wrap:break-word;
 }
 
-
+.status-bar__weather,
 .status-bar__clock,
 .status-bar__temp,
 .status-bar__place
-. {
-    color: #FFFAF0;
+{
+    color: white;
     transition: color .5s ease-in-out;
     text-align: left;
     margin: 0px;
@@ -54,10 +54,20 @@ body{
 .form,
 .greetings{
     display: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 60%;
+    width: 50%;
 }
 
 .showing{
-    display: block;
+    display: inline-block;
+    text-align: center;
+    word-wrap: break-word; 
+    color: white;
+    font-size: 150%;
 }
 
 
@@ -83,4 +93,8 @@ body{
 
 .js-clock{
     margin-top: 0px;
+}
+
+i {
+    color: white;
 }
