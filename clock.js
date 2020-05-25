@@ -1,5 +1,5 @@
 const clockContainer = document.querySelector(".js-clock"),
-    clockTitle = clockContainer.querySelector(".status-bar__clock");
+    clockTitle = clockContainer.querySelector(".js-clock__clock");
 const weekday_list = ["Sun","Mon","Tue","Wed","Thu","Fri","Sat"];
 const month_list = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul","Aug", "Sep", "Oct", "Nov", "Dec"];
 
@@ -19,7 +19,6 @@ function getTime(){
     const month = getMonth(date.getMonth()+1);
     const day = date.getDate();
     const weekday = getDay(date.getDay());
-
 
     clockTitle.innerText = `${month} ${day} (${weekday}) ${hours < 10 ? `0${hours}`: hours}:${minutes < 10 ? `0${minutes}`: minutes}`;
 }

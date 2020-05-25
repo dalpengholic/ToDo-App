@@ -1,0 +1,19 @@
+.js-form,
+.js-greetings{
+    display: none;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 50px;
+    width: 50%;
+}
+
+.showing{
+    display: inline-block;
+    text-align: center;
+    word-wrap: break-word; 
+    color: white;
+    font-size: 150%;
+    font-weight: 700;
+}

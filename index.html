@@ -1,44 +1,48 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Momonton || My To-Do List</title>
+  <title>Focus 5 || To-Do List</title>
   <script src="https://kit.fontawesome.com/abe311f4c2.js" crossorigin="anonymous"></script>
   <meta charset="utf-8" />
-  <link rel="stylesheet" href="index.css" />
+  <link rel="stylesheet" href="css/styles.css" />
 </head>
   <body>
+
+
     <div class="status-bar">
-      <div class="js-clock">
-        <span class="status-bar__clock">00:00</span>
+      <div class="status-bar js-clock">
+        <span class="js-clock__clock">00:00</span>
       </div>
-      <div class="js-weather">
-        <span class="status-bar__weather">weather</span>
+      <div class="status-bar js-weather">
+        <span class="js-weather__weather">weather</span>
         <i class="fas fa-thermometer-half"></i>
-        <span class="status-bar__temp">temp</span>
+        <span class="js-weather__temp">temp</span>
         <i class="fas fa-location-arrow"></i>
-        <span class="status-bar__place">place</span>
+        <span class="js-weather__place">place</span>
       </div>
     </div>
 
-  <div class="js-main">
-    <form class="js-form form">
+
+  <div class="js-welcome">
+    <form class="js-form js-welcome__js-form">
       <input type="text" placeholder="What is your name?" />
     </form>
-    <h4 class="js-greetings greetings"></h4>
+    <h4 class="js-greetings js-welcome__js-greetings"></h4>
+  </div>
     
-    <form class="js-toDoForm">
+  <div class="js-todos">
+    <form class="js-toDoForm js-todos__js-toDoForm">
       <input type="text" placeholder="Write a to do" />
     </form>
-    <ul class="js-toDoList">
+    <ul class="js-toDoList js-todos__js-toDoList">
     </ul>
   </div>
     
+
     <div class="bottom-bar">
-      <div class="js-text">
-        <span class="bottom-bar__text"></span>
+      <div class="bottom-bar__js-text">
       </div>
-      <div class="js-author">
-        <span class="bottom-bar__author"></span> 
+      <div class="bottom-bar__js-author">
       </div>
     </div>
 

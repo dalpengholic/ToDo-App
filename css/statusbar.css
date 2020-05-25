@@ -1,0 +1,22 @@
+.status-bar{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 10px;
+    font-size: 100%;
+}
+
+.js-clock__clock,
+.js-weather__weather,
+.js-weather__temp,
+.js-weather__place
+{
+    color: white;
+    transition: color .5s ease-in-out;
+    text-align: left;
+    margin: 5px;
+}
+
+
+i {
+    color: white;
+}

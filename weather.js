@@ -1,8 +1,8 @@
 
-const weather = document.querySelector(".js-weather"),
-    weatherTitle = document.querySelector(".status-bar__weather"),
-    tempTitle = document.querySelector(".status-bar__temp"),
-    placeTitle = document.querySelector(".status-bar__place");
+// const weather = document.querySelector(".js-weather"),
+const weatherTitle = document.querySelector(".js-weather__weather"),
+    tempTitle = document.querySelector(".js-weather__temp"),
+    placeTitle = document.querySelector(".js-weather__place");
 const API_KEY = "b7f819b6c372ecaf5dad13c1e10f29c8";
 const COORDS ="coords";
 

@@ -1,6 +1,6 @@
 const bottom = document.querySelector("bottom-bar"),
-    textTitle = document.querySelector(".bottom-bar__text"),
-    authorTitle = document.querySelector(".bottom-bar__author");
+    textTitle = document.querySelector(".bottom-bar__js-text"),
+    authorTitle = document.querySelector(".bottom-bar__js-author");
 
 const QUOTE_NUMBER = 1643;
 
@@ -18,7 +18,7 @@ function getQuote(){
         const text = quote.text;
         const author =  quote.author;
         textTitle.innerText = `${text}`;
-        authorTitle.innerText = `${author}`;
+        authorTitle.innerText = `< ${author} >`;
     });
 }
 

@@ -1,0 +1,29 @@
+.js-todos{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 50px;
+    width: 50%;
+    color: white;
+}
+/* .js-toDoForm,
+.js-toDoList{
+    position: absolute;
+    top: 70%;
+    left: 60%;
+    transform: translate(-50%, -50%);
+    height: 60%;
+    width: 50%;
+} */
+
+.js-todos__js-toDoForm
+{
+    text-align: center;
+}
+
+.js-todos__js-toDoForm
+{
+    padding: 10px 20px;
+}
+

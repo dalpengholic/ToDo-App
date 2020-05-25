@@ -4,8 +4,6 @@ const toDoform = document.querySelector(".js-toDoForm"),
 
 const TODOS_LS = 'toDos';
 
-
-
 let toDos = [];
 
 function deleteToDo(event){
@@ -52,7 +50,6 @@ function handleSubmit(event){
 } 
 
 
-
 function loadToDos(){
     const loadedToDos = localStorage.getItem(TODOS_LS);
     if(loadedToDos !== null){
@@ -66,6 +63,5 @@ function loadToDos(){
 function init(){
     loadToDos();
     toDoform.addEventListener("submit", handleSubmit)
-
 }
 init();
