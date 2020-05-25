@@ -7,3 +7,9 @@
 
 
 
+::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+    color: white;
+    font-size: 100%;
+    font-weight: 700;
+    text-align: center;
+}

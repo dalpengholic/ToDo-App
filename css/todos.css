@@ -7,23 +7,46 @@
     width: 50%;
     color: white;
 }
-/* .js-toDoForm,
-.js-toDoList{
-    position: absolute;
-    top: 70%;
-    left: 60%;
-    transform: translate(-50%, -50%);
-    height: 60%;
-    width: 50%;
-} */
 
 .js-todos__js-toDoForm
 {
     text-align: center;
+    margin:0;
 }
 
-.js-todos__js-toDoForm
-{
-    padding: 10px 20px;
+
+.js-todos__input{
+    /* border-radius: 15px; */
+    padding: 10px 10px; 
+    width: 200px;
+    border: 2px solid white;
+    background-color: Transparent;
+    font-size: 100%;
+    font-weight: 700;
+    color: white;
+}
+.js-toDoList{
+    position: absolute;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
+.js-toDoList_todo{
+    margin:10px 10px;
+}
+
+.js-toDoList_delBtn{
+    /* border-radius: 100px; */
+    background-color: transparent;
+    border: white;
+    /* text-align: center; */
+    width: 18px;
+    margin-right: 5px;
+    padding: 0px;
+}
+
+.hiding{
+    display: none;
+}
