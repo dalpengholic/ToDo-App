@@ -6,7 +6,7 @@ The project was built with only html, css, and vanilla JavaScript without any fr
 
 ## Showcase
 1) [GitHub page](https://dalpengholic.github.io/ToDo-App/)
-2) [Surge] (https://phobic-minister.surge.sh/)
+2) [Surge](https://phobic-minister.surge.sh/)
 ![ScreenShot](https://github.com/dalpengholic/ToDo-App/blob/master/Screenshot.png)
 
 ## File Structure
