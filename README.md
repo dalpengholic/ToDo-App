@@ -7,7 +7,7 @@ The project was built with only html, css, and vanilla JavaScript without any fr
 ## Showcase
 1) [GitHub page](https://dalpengholic.github.io/ToDo-App/)
 
-[ScreenShop](https://github.com/dalpengholic/ToDo-App/blob/master/Screenshot.png)
+![ScreenShot](https://github.com/dalpengholic/ToDo-App/blob/master/Screenshot.png)
 
 ## File Structure
 ```
