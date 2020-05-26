@@ -5,6 +5,9 @@ const weatherTitle = document.querySelector(".js-weather__weather"),
     placeTitle = document.querySelector(".js-weather__place");
 const API_KEY = "b7f819b6c372ecaf5dad13c1e10f29c8";
 const COORDS ="coords";
+const capitalize = (str, lower = false) =>
+  (lower ? str.toLowerCase() : str).replace(/(?:^|\s|["'([{])+\S/g, match => match.toUpperCase());
+;
 
 function round(value, precision) {
     const multiplier = Math.pow(10, precision || 0);
@@ -16,10 +19,10 @@ function getWeather(lat, lon){
     ).then(function(response){
         return response.json();
     }).then(function(json){
-        // console.log(json);
+        console.log(json);
         const temp = round(json.main.temp, 1);
         const place = json.name;
-        const weatherMain = json.weather[0].main;
+        const weatherMain = capitalize(json.weather[0].description);
         weatherTitle.innerText = `${weatherMain}`;
         tempTitle.innerText = `${temp}°C`;
         placeTitle.innerText = `${place}`;
